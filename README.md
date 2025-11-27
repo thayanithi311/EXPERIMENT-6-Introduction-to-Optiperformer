@@ -1,10 +1,9 @@
 
-Exp 6 Simulation of Optical Communication System
+## Exp 6 Simulation of Optical Communication System
 ## Introduction to OptiPerformer 
 ## Objective
 Download and install OptiPerformer software on your computer and run a sample file.
 
----
 
 ## Overview
 
@@ -23,7 +22,6 @@ The system includes:
 - An optical power meter at the receiver input (fiber output)
 - A Bit Error Rate (BER) analyzer
 
----
 
 ## Instructions
 
@@ -55,7 +53,6 @@ The system includes:
    - Use forward/reverse buttons to step through iterations.  
    - Observe changes in received power, BER, Q factor, and eye diagram.
 
----
 
 ## Report
 
@@ -64,28 +61,27 @@ The system includes:
 3. Plot of received power, Q factor, and BER vs. fiber length.  
 4. Description of eye diagram changes with increasing fiber length.
 
----
 
 ## Tabulation
 
 **Transmission Analysis Across Fiber Lengths**
 
-| S.No | Fiber Length (km) | Optical Power (Watts) | Optical Power (dBm) | Max Q Factor | Min BER | Eye Height | Decision Instant (Max Q / Min BER) |
-|------|-------------------|------------------------|----------------------|--------------|---------|-------------|-------------------------------------|
-|      |                   |                        |                      |              |         |             |                                     |
-|      |                   |                        |                      |              |         |             |                                     |
-|      |                   |                        |                      |              |         |             |                                     |
-|      |                   |                        |                      |              |         |             |                                     |
-|      |                   |                        |                      |              |         |             |                                     |
 
----
+| S. No | Fiber Length (m) | Optical Power (Watts) | Optical Power (dBm) | Max Q-factor | Min BER | Eye Height     | Decision Instant at Max Q / Min BER |
+| ----- | ---------------- | --------------------- | ------------------- | ------------ | ------- | -------------- | ----------------------------------- |
+| 1     | 56               | 36.746                | 14.34               | 100.121      | 0       | 7.86875 × 10⁻⁵ | 0.546875 / 0                        |
+| 2     | 57               | 34.527                | 14.61               | 95.3597      | 0       | 7.0309 × 10⁻⁵  | 0.546875 / 0                        |
+| 3     | 58               | 32.433                | 14.890              | 97.60832     | 0       | 6.70621 × 10⁻⁵ | 0.546875 / 0                        |
+| 4     | 59               | 32.320                | 14.878              | 82.22062     | 0       | 6.38268 × 10⁻⁵ | 0.546875 / 0                        |
+| 5     | 60               | 31.656                | 15.079              | 88.7921      | 0       | 6.11632 × 10⁻⁵ | 0.546875 / 0                        |
+
 
 ## Graphs
 
-*(Insert plots of Optical Power, Q Factor, and BER vs. Fiber Length here)*
+<img width="1097" height="399" alt="image" src="https://github.com/user-attachments/assets/4f130b5b-e145-4062-aea9-d896856c5d7b" />
 
 ---
 
 ## RESULT
 
-*(Summarize key findings from simulation and analysis)*
+The simulation of optical communication system was executed and verified successfully.
